@@ -3,6 +3,8 @@
  This algorithm is able to utilize multiple cores of a processor, and is designed to run on a server as an engine and not a end to end web application. The algorithm takes URLs and id as input and calculates the positive, negative, ... scores from  the article text and updates the values to output destination, data from here can be used for other applications.
 
 
+
+
 This document provides insights and guidance on the Sentimental analysis algorithm “SentimentEngine”.
 The data extraction and NLP problem is tasked with solving ways to design and implement a sentimental analysis algorithm, which analyzes textual data from web and assess its sentiments, positive, negative, or neutral, along with determining more variables such as subjectivity score, readability.
 Problem approach:
