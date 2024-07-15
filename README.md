@@ -36,7 +36,8 @@ pip install -r requirements.txt
 3)	Change the folder path variable in the engine.py python source file:
 folderpath = r'C:\Users/suwes/SentimentEngine/' 
 for the running system and execute engine.py. (run: python engine.py in terminal opened in same directory as folderpath). Python should be pre-installed in this directory.
-4)	After the program completes its execution, the output excel file named “Output.xlsx” is generated with specified structure format in the same directory.
+Also change the "class" variable of the article content in the extract_urltext() function with the class of respective webpage.
+5)	After the program completes its execution, the output excel file named “Output.xlsx” is generated with specified structure format in the same directory.
 
 Required dependencies(python liberaries):
 •	multiprocessing
