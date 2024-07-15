@@ -5,7 +5,7 @@
 
 
 
-This document provides insights and guidance on the Sentimental analysis algorithm “SentimentEngine”.
+This document provides insights and guidance on the Sentimental analysis algorithm “Multi-core SentimentEngine”.
 The data extraction and NLP problem is tasked with solving ways to design and implement a sentimental analysis algorithm, which analyzes textual data from web and assess its sentiments, positive, negative, or neutral, along with determining more variables such as subjectivity score, readability.
 Problem approach:
 The problem is solved using an extract, transform, load approach with multiprocessing for parallel processing of text files.
